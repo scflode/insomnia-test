@@ -1,15 +1,22 @@
 _id: req_8f1cccaf183c49d28c60c27c543fa055
 type: Request
 parentId: wrk_30b136aa77bd44eda454740ad345a192
-modified: 1664964125794
+modified: 1664964237911
 created: 1664964118509
 url: https://postman-echo.com/get
 name: New Request 2
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"test-value": "{% response 'body', 'req_a0fd876ff4c04dbd94d15332aeefcfb1', 'b64::JC51cmw=::46b', 'never', 60 %}"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1664964118509
 isPrivate: false
