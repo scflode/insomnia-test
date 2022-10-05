@@ -1,0 +1,21 @@
+_id: req_a0fd876ff4c04dbd94d15332aeefcfb1
+type: Request
+parentId: wrk_30b136aa77bd44eda454740ad345a192
+modified: 1664964069408
+created: 1664964059877
+url: https://postman-echo.com/get
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664964059877
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
